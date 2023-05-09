@@ -1,0 +1,165 @@
+/* reset css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+/* CLasses utilitarias */
+.container {
+
+  margin: 0 auto;
+  padding: 4rem 1rem;
+
+  max-width: 1300px;
+}
+
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+  
+}
+
+.header__text
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    width: 68%;
+
+    
+}
+
+.header__title
+{
+    font-size: 2rem;
+}
+
+.header__subtitle
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+/* Main */
+
+.grupoImagens__containerImg
+{
+  width: 80%;
+  max-width: 15rem;
+}
+
+img
+{
+  width: 100%;
+  height: auto;
+}
+
+.container2
+{
+  display: flex;
+  
+  
+}
+
+.containerImg--span
+{
+  height: 1rem;
+  rotate: 90deg;
+  width: 1rem;
+  margin-inline: .3rem;
+  
+}
+
+.containerImg--p
+{
+  margin-block: 1rem;
+  font-weight: bold;
+}
+
+.main
+{
+  display: flex;
+ flex-wrap: wrap;
+
+ 
+ 
+ 
+}
+
+.main__grupoImagens
+{
+  width: 50%;
+  
+
+}
+
+.diferencial
+{
+  margin-top: 5rem;
+}
+
+@media screen and (min-width: 768px)
+{
+  
+  .main__grupoImagens
+  {
+    width: 20rem;
+  }
+  .flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+   
+}
+.centro
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header__text
+{
+    font-size: 1.09rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    font-weight: 500;
+   
+
+}
+
+.header3
+{
+  text-align: center;
+  width: 30%;
+  margin-inline: 2.7rem ;
+}
+.header2
+{
+  width: 50%;
+}
+.main
+{
+ justify-content: center;
+ 
+  
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+}
